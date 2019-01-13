@@ -89,34 +89,15 @@ public class LambdaLibrary {
 
   public static void main(String[] args) {
     List<Book> books = new ArrayList<Book>();
-    books.add(new Book(
-        "Henryk Sienkiewicz", "Potop",
-        50, 1886));
-    books.add(new Book(
-        "Henryk Sienkiewicz", "Quo Vadis",
-        40,1895));
-    books.add(new Book(
-        "Henryk Sienkiewicz",
-        "Krzyzacy",
-        45,1900));
-    books.add(new Book(
-        "Adam Mickiewicz","Pan Tadeusz",
-        65,1834));
-    books.add(new Book(
-        "Adam Mickiewicz","Konrad Wallenrod",
-        30,1828));
-    books.add(new Book(
-        "Adam Mickiewicz","Sonety Krymskie",
-        25,1826));
-    books.add(new Book(
-        "Stefan Zeromski","Przedwiosnie",
-        29,1924));
-    books.add(new Book(
-        "Stefan Zeromski","Ludzie Bezdomni",
-        39,1900));
-    books.add(new Book(
-        "Stefan Zeromski","Popioly",
-        49,1902));
+    books.add(new Book("Henryk Sienkiewicz", "Potop", 50, 1886));
+    books.add(new Book("Henryk Sienkiewicz", "Quo Vadis", 40,1895));
+    books.add(new Book("Henryk Sienkiewicz", "Krzyzacy", 45,1900));
+    books.add(new Book("Adam Mickiewicz","Pan Tadeusz", 65,1834));
+    books.add(new Book("Adam Mickiewicz","Konrad Wallenrod", 30,1828));
+    books.add(new Book("Adam Mickiewicz","Sonety Krymskie", 25,1826));
+    books.add(new Book("Stefan Zeromski","Przedwiosnie", 29,1924));
+    books.add(new Book("Stefan Zeromski","Ludzie Bezdomni", 39,1900));
+    books.add(new Book("Stefan Zeromski","Popioly", 49,1902));
 
     LambdaLibrary library = new LambdaLibrary(books);
 
